@@ -1,0 +1,68 @@
+body{
+    background-image:url("images/me.png");
+    background-repeat: no-repeat;
+    background-position: -700px -280px;
+    margin: 0%;
+
+
+}
+
+.emailus{
+margin-top: 200px;
+text-align: center;
+}
+.emailus p{
+    font-size: 200%;
+}
+input#email{
+font-size: 120%;
+width: 400px;
+height: 30px;
+color: #223e72;
+background-color: #f2f2f2;
+border: 1px solid #bdbdbd;
+border-radius: 5px;
+padding: 5px 5px 5px 20px;
+background-repeat: no-repeat;
+background-position: 8px 9px;
+margin-bottom: 10px;
+}
+input#submit{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 150%;
+    background-color: #e90d0d;
+    color: white;
+    border: 1px solid #e90d0d;
+}
+input#submit:hover{
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 150%;
+    background-color: #f51a1a;
+    color: white;
+    border-style: outset;
+    border-color: #941d1d;
+    border-width: 1px 4px 4px 4px;
+}
+
+.text-transition{
+    margin-top: 140px;
+
+    text-align: center;
+    font-size: 200%;
+}
+
+.container{
+    text-align: center;
+ padding-top: 30px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: 1fr;
+}
+.project img{
+    width: 70%;
+}
